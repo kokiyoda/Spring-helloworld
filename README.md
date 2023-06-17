@@ -1,2 +1,2 @@
 課題６
-spring bootを使ったHelloWorldの実装と追加
+springBootを使ったHelloWorldの実装と追加
