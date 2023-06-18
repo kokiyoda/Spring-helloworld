@@ -15,8 +15,8 @@ public class HelloworldController {
     public String localTime() {
         LocalDateTime localTime = LocalDateTime.now();
         DateTimeFormatter dateFormat = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
-        String formatted = dateFormat.format(localTime);
-        return "Hello current time " + formatted;
+        String formattedLocalTime = dateFormat.format(localTime);
+        return "Hello current time " + formattedLocalTime;
 
     }
 
